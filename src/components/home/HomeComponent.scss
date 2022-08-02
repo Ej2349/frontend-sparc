@@ -1,0 +1,180 @@
+$color-primary:#B613D8;
+$color-secondary: #544CD6;
+
+.home-background {
+    background-color: $color-primary;
+}
+
+img {
+    width: 100%;
+}
+
+.workout {
+    height: 100%
+}
+
+.homepage_line {
+    padding-top: 235px;
+    height: 650px;
+}
+
+.card-info-1 {
+    display: flex;
+    height: 485px;
+    width: 100%;
+    background-color: #544CD6;
+
+    .card-info-1-1 {
+        display: flex;
+        align-items: center;
+        place-content: center;
+    }
+}
+
+.card-info-2 {
+    display: grid;
+    height: 650px;
+    width: 100%;
+    align-items: center;
+
+    .card-info-2-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // padding: 90px 0 90px 0;
+    }
+
+}
+
+.card {
+    width: 18rem;
+    background-color: $color-secondary;
+    border-color: aliceblue;
+}
+
+.card:hover{
+    -webkit-box-shadow: 6px 20px 42px 5px rgba(255,255,255,0.09); 
+box-shadow: 6px 20px 42px 5px rgba(255,255,255,0.09);
+    cursor: pointer;
+}
+
+.card-info-3 {
+    position: relative;
+    display: flex;
+    background-color: $color-secondary;
+    height: 485px;
+    width: 100%;
+
+    .card-info-3-1 {
+        display: grid;
+        align-items: center;
+        place-content: center;
+    }
+}
+
+h2 {
+    text-align: right;
+}
+
+.card-text {
+    font-size: 0.9em;
+    height: 86px;
+    overflow: hidden;
+}
+
+.btn-apt{
+    display: block;
+    width: 325px;
+    height: 40px;
+    // line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    background-color: $color-primary;
+  }
+  
+  .btn-apt span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .btn-apt:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: $color-secondary;
+    transition: all .35s;
+  }
+  
+  .btn-apt:hover{
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  
+  .btn-apt:hover:after{
+    width: 100%;
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+
+
+@media only screen and (max-width: 920px) {
+
+    .homepage_line {
+        position: relative;
+        height: 150px;
+    }
+
+    .workout {
+        position: relative;
+        z-index: -1;
+        height: 80%;
+        width: 80%;
+    }
+
+    .card {
+        position: relative;
+        width: 80%;
+        height: 80%;
+    }
+
+    .card-text {
+        font-size: 0.7em;
+        height: 80%;
+        overflow: hidden;
+    }
+
+    .card-img {
+        width: 80%;
+        height: 60%;
+    }
+
+    .button {
+        visibility: hidden;
+    }
+
+    .card-info-1 {
+        position: relative;
+        display: flex;
+        height: 100%;
+        width: 100%;
+      
+        .card-info-1-1 {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 3em;
+        }
+    }
+}

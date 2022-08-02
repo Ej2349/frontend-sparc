@@ -1,0 +1,31 @@
+$color-primary: #B613D8;
+$color-secondary: #544CD6;
+
+.service-background {
+    background-color: $color-primary;
+    height: 1080px;
+}
+
+.service-title {
+
+    align-items: center;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-content: center;
+    margin: auto;
+
+    h1 {
+        font-size: 4rem;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.service-container {
+    display: inline-grid;
+    align-items: center;
+    padding: 1rem;
+    margin: auto;
+    
+}

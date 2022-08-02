@@ -1,0 +1,31 @@
+$color-primary: #B613D8;
+$color-secondary: #544CD6;
+
+.appointment-background {
+    color: #ffffff;
+    background-color: $color-primary ;
+    height: 1080px;
+}
+
+.text-muted {
+    color: #ffffff;
+
+    p{
+        color: #ffffff;
+        opacity: 0.7;
+    }
+}
+
+.btn-appointment {
+    margin-right: 1rem;
+}
+
+.appointment-col {
+    padding: 2em 1em 2em 1em;
+}
+
+.appointment-box {
+    border: 3px solid #ffffff;
+    padding: 1rem;
+}
+
