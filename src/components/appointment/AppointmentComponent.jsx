@@ -12,7 +12,7 @@ function AppointmentComponent() {
     const [state, setState] = useState(
         {
             id: ids,
-            name: 'iroj',
+            name: '',
             email: '',
             phoneNum: '',
             location: ''
